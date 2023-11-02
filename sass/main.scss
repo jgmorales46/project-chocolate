@@ -202,6 +202,7 @@ body {
     margin-top: 415px;
     background: #1E1823;
     padding: 20px;
+    padding-left: 106px;
 
 }
 
@@ -226,8 +227,111 @@ body {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.28px;
-    width: 308px;
+    width: 380px;
 }
+
+.recipe__title {
+    width: 330px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 72px 44px 87px 44px;
+
+
+}
+
+.recipe__span {
+    color: #FD9222;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+}
+
+.recipe__paragraph {
+    width: 500px;
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+    margin: 0 auto;
+}
+
+
+
+
+.gallery__img {
+    list-style: none;
+    text-align: none;
+    width: 335px;
+    height: 270px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.img {
+    padding: 25px 56px;
+}
+
+.img1 {
+    border-radius: 15px;
+    background: #FD9222;
+    color: #FFF;
+}
+
+.img2 {
+    border-radius: 15px;
+    border: 1px solid #FD9222;
+    background: #FFF;
+    color: #111;
+
+}
+
+.img3 {
+    border-radius: 15px;
+    background: #1E1823;
+    color: #FFF;
+}
+
+.img4 {
+    border-radius: 15px;
+    border: 1px solid #FD9222;
+    background: #FFF;
+    color: #111;
+}
+
+.gallery__span {
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+    margin: 28px;
+}
+
 
 /* responsive------------------- */
 
@@ -314,6 +418,7 @@ body {
     .our__service {
         margin-top: 675px;
         padding: 32px;
+        padding-left: 75px;
     }
 
     .our__list {
@@ -322,6 +427,16 @@ body {
         gap: 60px;
         flex-wrap: wrap;
     }
+
+    .recipe__title {
+        width: 470px;
+    }
+
+    .recipe__paragraph {
+        width: 495px;
+
+    }
+
 
     @media screen and (min-width: 1280px) {
 
@@ -410,8 +525,14 @@ body {
         }
 
         .our__service {
-            padding: 0 50px;
+            padding: 0px;
             margin-top: 360px;
+        }
+
+        .our__list {
+            padding: 60px;
+            gap: 44px;
+
         }
     }
 }
