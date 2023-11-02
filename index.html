@@ -13,19 +13,16 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-   
     <header class="header__section">
       <div class="container__header">
-        
-         <h1 class="header__title">symple chocolate</h1>
-        
-          
-    <svg class="icon__header " width="21" height="21">
-      <use href="./images/icons/symbol-defs-header.svg#icon-chocolate"></use>
-    </svg>
-  
-        
-       
+        <h1 class="header__title">symple chocolate</h1>
+
+        <svg class="icon__header" width="21" height="21">
+          <use
+            href="./images/icons/symbol-defs-header.svg#icon-chocolate"
+          ></use>
+        </svg>
+
         <button
           class="menu-toggle js-open-menu"
           aria-expanded="false"
@@ -47,47 +44,101 @@
         </button>
 
         <ul class="header__menu">
-          <li><a href="" class="link desktop">About</a></li>
-          <li><a href="" class="link desktop">How it’s made?</a></li>
-          <li><a href="" class="link desktop">Our products</a></li>
-          <li><a href="" class="link desktop">Top sellers</a></li>
-          <li><a href="" class="link desktop">Chocolate is Loved</a></li>
-        <div class="redes">
+          <li><a href="" class="link header__desktop">About</a></li>
+          <li><a href="" class="link header__desktop">How it’s made?</a></li>
+          <li><a href="" class="link header__desktop">Our products</a></li>
+          <li><a href="" class="link header__desktop">Top sellers</a></li>
+          <li>
+            <a href="" class="link header__desktop">Chocolate is Loved</a>
+          </li>
+          <div class="redes">
+            <svg class="icon__header-redes" width="21" height="21">
+              <use
+                href="./images/icons/symbol-defs-header.svg#icon-instagram"
+              ></use>
+            </svg>
 
-         <svg class="icon__header-redes " width="21" height="21">
-      <use href="./images/icons/symbol-defs-header.svg#icon-instagram"></use>
-       </svg>
-
-       <svg class="icon__header-redes " width="21" height="21">
-      <use href="./images/icons/symbol-defs-header.svg#icon-twitter"></use>
-    </svg>
-        </div>   
-             
-
+            <svg class="icon__header-redes" width="21" height="21">
+              <use
+                href="./images/icons/symbol-defs-header.svg#icon-twitter"
+              ></use>
+            </svg>
+          </div>
         </ul>
+      </div>
+
+      <div class="container__header">
+        <div class="main__img">
+          <div class="main__title">
+            Treat yourself or a loved one to our finest ingredients for a moment
+            of pure delight!
+          </div>
+          <div class="main__buttons">
+            <button class="main__button">Buy now</button>
+            <button class="main__button">How it’s made</button>
+          </div>
+          <div class="main__foot">
+            <span class="main__paragraph">scroll down </span>
+            <svg class="icon__main-redes" width="21" height="21">
+              <use
+                href="./images/icons/symbol-defs-header.svg#icon-twitter"
+              ></use>
+            </svg>
+          </div>
+        </div>
       </div>
     </header>
 
     <main>
-      <div class="container__header">
-       <div class="main__img">
-        <div class="main__title">Treat yourself or a loved one 
-to our finest ingredients for a moment of pure delight!</div>
-        <div class="main__buttons">
-          <button class="main__button">Buy now</button>
-          <button class="main__button">How it’s made</button>
-        </div>
-        <div class="main__foot">
-          <span class="main__paragraph">hola </span>
-           <svg class="icon__main-redes " width="21" height="21">
-      <use href="./images/icons/symbol-defs-header.svg#icon-twitter"></use>
-    </svg>
-        </div>
-         
-       </div>
-       
-    </main>
+      <section class="our__service">
+        <ul class="our__list">
+          <li>
+            <svg class="icon__our" width="32" height="32">
+              <use
+                href="./images/icons/symbol-defs-header.svg#icon-twitter"
+              ></use>
+            </svg>
 
+            <h2 class="our__title">Unsurpassed taste</h2>
+            <p class="our__paragraph">
+              Crafted with the finest quality cocoa beans and a dedication to
+              perfection, each bite is a decadent experience that simply cannot
+              be matched. Savor the richness and complexity of our Unsurpassed
+              Taste and discover a new level of chocolate bliss.
+            </p>
+          </li>
+          <li>
+            <svg class="icon__our" width="32" height="32">
+              <use
+                href="./images/icons/symbol-defs-header.svg#icon-twitter"
+              ></use>
+            </svg>
+            <h2 class="our__title">Affordable price</h2>
+            <p class="our__paragraph">
+              Indulge in high-quality chocolate without breaking the bank with
+              Simply Chocolate's selection of affordable treats. Enjoy
+              mouth-watering truffles and velvety chocolate bars without
+              sacrificing taste or quality. Browse our selection and indulge in
+              affordable luxury today.
+            </p>
+          </li>
+          <li>
+            <svg class="icon__our" width="32" height="32">
+              <use
+                href="./images/icons/symbol-defs-header.svg#icon-twitter"
+              ></use>
+            </svg>
+            <h2 class="our__title">Own production</h2>
+            <p class="our__paragraph">
+              We take pride in our own production process, ensuring that every
+              step is carefully crafted to perfection. From selecting the finest
+              ingredients to handcrafting each piece, our attention to detail is
+              evident in every bite.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
 
     <!-- esta parte pertenece al menu hamburguesa -->
     <div class="menu-container js-menu-container" id="mobile-menu">
@@ -112,8 +163,19 @@ to our finest ingredients for a moment of pure delight!</div>
         <li><a href="" class="link">How it’s made?</a></li>
         <li><a href="" class="link">Our products</a></li>
         <li><a href="" class="link">Top sellers</a></li>
-          <li><a href="" class="link">Chocolate is Loved</a></li>
+        <li><a href="" class="link">Chocolate is Loved</a></li>
       </ul>
+      <div class="redes">
+        <svg class="icon__mobil-redes" width="21" height="21">
+          <use
+            href="./images/icons/symbol-defs-header.svg#icon-instagram"
+          ></use>
+        </svg>
+
+        <svg class="icon__mobil-redes" width="21" height="21">
+          <use href="./images/icons/symbol-defs-header.svg#icon-twitter"></use>
+        </svg>
+      </div>
     </div>
 
     <script
