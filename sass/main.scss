@@ -202,12 +202,15 @@ body {
     margin-top: 415px;
     background: #1E1823;
     padding: 20px;
+    width: 375px;
+    margin: 372px auto 0px;
 
 
 }
 
 .our__list {
     list-style: none;
+    padding-left: 25px;
 }
 
 .our__title {
@@ -262,7 +265,7 @@ body {
 }
 
 .recipe__paragraph {
-    width: 400px;
+    width: 350px;
     color: #111;
     text-align: center;
     font-family: Montserrat;
@@ -281,17 +284,22 @@ body {
     width: 335px;
     height: 270px;
     flex-shrink: 0;
-    margin: 20px 20px;
+
 }
 
 .img {
     padding: 25px 56px;
+
 }
 
 .img1 {
     border-radius: 15px;
     background: #FD9222;
     color: #FFF;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+
 }
 
 .img2 {
@@ -299,6 +307,10 @@ body {
     border: 1px solid #FD9222;
     background: #FFF;
     color: #111;
+    position: absolute;
+    top: 320px;
+    left: 25px;
+
 
 }
 
@@ -306,6 +318,9 @@ body {
     border-radius: 15px;
     background: #1E1823;
     color: #FFF;
+    position: absolute;
+    top: 620px;
+    left: 25px;
 }
 
 .img4 {
@@ -313,6 +328,16 @@ body {
     border: 1px solid #FD9222;
     background: #FFF;
     color: #111;
+    position: absolute;
+    top: 920px;
+    left: 25px;
+}
+
+.gallery__list {
+    width: 375px;
+    margin: 0 auto;
+
+    position: relative;
 }
 
 .gallery__span {
@@ -329,7 +354,7 @@ body {
 }
 
 
-/* responsive------------------- */
+/* responsive-------------------+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 @media screen and (min-width: 768px) {
     .container__header {
@@ -413,8 +438,8 @@ body {
 
     .our__service {
         margin-top: 675px;
-        padding: 32px;
-        padding-left: 75px;
+
+        width: 768px;
     }
 
     .our__list {
@@ -433,7 +458,49 @@ body {
 
     }
 
+    .gallery {
+        width: 768px;
+    }
 
+    .gallery__list {
+
+        gap: 32px;
+        margin-left: 30px;
+
+
+    }
+
+    .img1 {
+
+
+        top: 40px;
+        left: 150px;
+
+    }
+
+    .img2 {
+
+        top: 40px;
+        left: 540px;
+
+
+    }
+
+    .img3 {
+
+        top: 350px;
+
+        left: 150px;
+    }
+
+    .img4 {
+
+        top: 350px;
+
+        left: 540px;
+    }
+
+    // /----------+++++++++++++++++++++++++++++++++++++++++++----------------------------/
     @media screen and (min-width: 1280px) {
 
 
@@ -523,12 +590,65 @@ body {
         .our__service {
             padding: 0px;
             margin-top: 360px;
+            width: 1280px;
         }
 
         .our__list {
             padding: 60px;
-            gap: 44px;
+            gap: 110px;
 
+        }
+
+        .gallery {
+            width: 1280px;
+        }
+
+        .gallery__list {
+            margin-left: 60px;
+        }
+
+        .gallery__img {
+            width: 225px;
+            height: 225px;
+        }
+
+        .gallery__span {
+            margin: 15px;
+        }
+
+        .img {
+
+            padding: 5px;
+        }
+
+        .img1 {
+
+
+            top: 40px;
+            left: 70px;
+
+        }
+
+        .img2 {
+
+            top: 40px;
+            left: 360px;
+
+
+        }
+
+        .img3 {
+
+            top: 40px;
+
+            left: 660px;
+        }
+
+        .img4 {
+
+            top: 40px;
+
+            left: 950px;
         }
     }
 }
