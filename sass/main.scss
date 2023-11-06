@@ -434,6 +434,97 @@ body {
 
 }
 
+.gallery__buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.gallery__button {
+    display: flex;
+    padding: 6px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 35px;
+    border: 1px solid #FD9222;
+    background: #FAFAFA;
+}
+
+.gallery__button:hover {
+    background: #FD9222;
+}
+
+.made {
+    width: 375px;
+    padding: 25px;
+    margin: 1191px auto 0px;
+}
+
+.made__title {
+    text-align: center;
+    color: #111;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+}
+
+.made__span {
+    color: #FD9222;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+
+}
+
+.made__div-text {
+    padding: 14px;
+}
+
+.made__subtitle {
+    width: 307px;
+    color: #111;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 133.333% */
+}
+
+.made__list {
+    padding-left: 20px;
+}
+
+.made__item {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 128.571% */
+    letter-spacing: -0.28px;
+    width: 291px;
+}
+
+.made__img {
+    margin: 0 auto;
+
+    width: 335px;
+    height: 621px;
+    background-image: url("../images/image-video1.png");
+    background-size: 335px 621px;
+}
 
 /* responsive-------------------+++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
@@ -546,7 +637,8 @@ body {
     .gallery__list {
 
         gap: 32px;
-        margin-left: 30px;
+        margin-left: -92px;
+        width: 768px;
 
 
     }
@@ -555,14 +647,14 @@ body {
 
 
         top: 40px;
-        left: 150px;
+        left: 225px;
 
     }
 
     .img2 {
 
         top: 40px;
-        left: 540px;
+        left: 600px;
 
 
     }
@@ -571,14 +663,62 @@ body {
 
         top: 350px;
 
-        left: 150px;
+        left: 225px;
     }
 
     .img4 {
 
         top: 350px;
 
-        left: 540px;
+        left: 600px;
+    }
+
+    .made {
+        padding: 5px;
+        width: 768px;
+        padding-right: 30px;
+        margin: 632px auto 0px;
+    }
+
+    .made__img {
+
+        width: 614px;
+        // height: 890px;
+
+        background-image: url("../images/image-video2.png");
+        background-size: 614px 400px;
+    }
+
+    .made__div-text {
+        width: 550px;
+    }
+
+    .made__subtitle {
+        width: 350px;
+        color: #111;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        /* 133.333% */
+    }
+
+    .made__list {
+        width: 550px;
+    }
+
+    .made__item {
+        width: 464px;
+        color: #111;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.28px;
+        padding-top: 18px;
     }
 
     // /----------+++++++++++++++++++++++++++++++++++++++++++----------------------------/
@@ -730,6 +870,41 @@ body {
             top: 40px;
 
             left: 950px;
+        }
+
+        .made {
+            padding: 5px;
+            width: 1280px;
+            padding-right: 30px;
+            margin: 315px auto 0px;
+        }
+
+        .made__subtitle {
+            padding-top: 28px;
+        }
+
+        .made__box {
+            display: flex;
+            gap: 5px;
+        }
+
+        .made__img {
+            width: 604px;
+            height: 400px;
+            margin-top: 40px;
+            margin-right: 20px;
+
+        }
+
+        .made__div-text {
+            width: 462px;
+            padding: 32px;
+            margin-right: 60px;
+        }
+
+        .made__item {
+            width: 404px;
+            padding-top: 24px;
         }
     }
 }
