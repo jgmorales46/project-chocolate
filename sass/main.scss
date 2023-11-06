@@ -632,6 +632,7 @@ body {
 
     .gallery {
         width: 768px;
+        margin: 0 auto;
     }
 
     .gallery__list {
@@ -647,14 +648,14 @@ body {
 
 
         top: 40px;
-        left: 225px;
+        left: 100px;
 
     }
 
     .img2 {
 
         top: 40px;
-        left: 600px;
+        left: 500px;
 
 
     }
@@ -663,14 +664,14 @@ body {
 
         top: 350px;
 
-        left: 225px;
+        left: 100px;
     }
 
     .img4 {
 
         top: 350px;
 
-        left: 600px;
+        left: 500px;
     }
 
     .made {
@@ -686,7 +687,7 @@ body {
         // height: 890px;
 
         background-image: url("../images/image-video2.png");
-        background-size: 614px 400px;
+        background-size: 614px 625px;
     }
 
     .made__div-text {
@@ -822,6 +823,7 @@ body {
 
         .gallery {
             width: 1280px;
+            margin: 0 auto;
         }
 
         .gallery__list {
@@ -846,14 +848,14 @@ body {
 
 
             top: 40px;
-            left: 70px;
+            left: 0px;
 
         }
 
         .img2 {
 
             top: 40px;
-            left: 360px;
+            left: 310px;
 
 
         }
@@ -862,7 +864,7 @@ body {
 
             top: 40px;
 
-            left: 660px;
+            left: 630px;
         }
 
         .img4 {
@@ -890,11 +892,14 @@ body {
 
         .made__img {
             width: 604px;
-            height: 400px;
+
             margin-top: 40px;
             margin-right: 20px;
+            height: 400px;
+            background-size: cover;
 
         }
+
 
         .made__div-text {
             width: 462px;
