@@ -565,9 +565,16 @@ body {
 
 
 .conteCarrouselController {
+
+
+
     width: 100%;
+    position: absolute;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin-top: -35px;
+
+    margin-left: -145px;
 }
 
 .conteCarrouselController>a {
